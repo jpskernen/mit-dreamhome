@@ -1,0 +1,29 @@
+#House Hunting
+I am learning Python via MIT OCW 6.0001 Introction to Computer Programming and Python. I will use this to show my worth as an investment for my return to Arizona State Univeristy for a Masters in Computer Science. My husband wants to make sure I have interest and ability. Thanks, Babe!
+##Part A
+In this hypothetical lesson, I am now making megabucks and trying to buy a house in the Bay area. If I really want to make this applicable to my situation, I will figure out how much it costs to build a house in Austin, TX or Phoenix, AZ. 
+
+In Part A, I will determine how long it will take me to save enough money to make the down payment. 
+### Assumptions
+1. Call the cost of my dream home total_cost. 
+2. Call the portion of the cost needed fora down payment portion_down_payment. Assume the portion_down_payment=0.25 (25%)
+3. Call the amount I have saved current_savings and assume that is $0.00. This is pretty accurate, embarrassingly. 
+4. Assume that I invest my current savings wisely, with an annual return of r. (current_savings*r/12). 
+5. Name your annual_salary. 
+6. Dedicate a portion_saved. I will use 10%
+At the end of each month, my savings will be increased by the return on my investment, plus a percentage of my monthly salary (anual salary/12). 
+
+#Program
+This program will calculate how many months it will take me to save enough money fora  down payment. 
+1. Variables will be floats. 
+I will ask the user to enter the following variables: 
+1. annual_salary
+2. portion_saved
+3. total_cost
+
+##Hints
+Assume the user will enter valid input (not a string when I expect an int)
+Test Case 1
+Enter annual salary
+enter percentage as a decimal
+enter cost of dream home
