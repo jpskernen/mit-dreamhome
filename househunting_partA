@@ -16,4 +16,6 @@ monthly_salary = annual_salary/12
 months = 0 
 while current_savings<= portion_down_payment: 
   months = months+1
+  current_savings = current_savings + monthly_salary*portion_saved + (current_savings*.04)/12
+print ('Number of months:')
   
