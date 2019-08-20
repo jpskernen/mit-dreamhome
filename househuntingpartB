@@ -13,3 +13,14 @@ while current_savings<= portion_down_payment:
   months = months+1
   current_savings = current_savings + monthly_salary*portion_saved + (current_savings*.04)/12
 print ('Number of months:')
+months = 0
+count = 0 # Count the number of months up to 6 for raise
+while current_savings <= portion_down_payment:
+    current_savings += current_savings *.04 / 12
+    current_savings += monthly_salary * portion_saved
+    if count == 6:
+        monthly_salary += monthly_salary * semi_annual_raise #every 6 months, salary goes up by a semi_annual_raise of 4%
+        count = 0
+    months += 1
+    count += 1
+print(months)
